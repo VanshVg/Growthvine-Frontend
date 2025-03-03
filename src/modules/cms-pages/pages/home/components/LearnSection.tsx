@@ -4,19 +4,28 @@ const LearnSection = () => {
       <div className="flex gap-10">
         <div className="w-[50%]">
           <p className="text-[#458369] text-left">
-            Non Governmental Organisations
+            Non Governmental Organisation
           </p>
           <h1 className="font-semibold text-[38px] text-left">
             Learn About Us
           </h1>
-          <p className="text-justify mt-6">
-            We envision a world where every child, regardless of their
-            background, has access to quality education and the opportunity to
-            reach their full potential. By building schools, providing essential
-            resources, and offering scholarships, we strive to create a future
-            where education bridges gaps and transforms lives. Together, we can
-            turn this vision into reality and unlock brighter futures
-            for all children.
+          <p className="text-justify mt-3">
+            Welcome to Project Growthvine, a nonprofit initiative with a simple
+            yet powerful mission—making essential life skills accessible to
+            everyone, for free. In today’s world, where formal education often
+            leaves out practical knowledge, many people struggle with everyday
+            tasks like managing finances, handling digital tools, organizing
+            their living spaces, or even performing basic car maintenance.
+            Growthvine is here to change that. We are a community-driven
+            learning platform dedicated to providing valuable skills that help
+            people lead independent and empowered lives. Whether it’s financial
+            literacy, digital literacy, home management, personal development,
+            or well-being, Growthvine ensures that everyone has access to the
+            knowledge they need to grow. At Growthvine, we bring together
+            multiple life-enhancing skills under a single platform. From
+            understanding how to manage your finances to mastering public
+            speaking, our diverse learning ecosystem ensures that everyone,
+            regardless of background or experience, can learn and thrive.
           </p>
         </div>
         <div>
