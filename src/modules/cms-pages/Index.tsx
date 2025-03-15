@@ -1,15 +1,17 @@
 import { Suspense } from "react";
 import { Outlet } from "react-router-dom";
 import CmsNavbar from "./components/CmsNavbar";
+import CmsFooter from "./components/CmsFooter";
 
 const CmsPages = () => {
   return (
-    <>
-      <Suspense>
+    <Suspense>
+      <div className="max-w-[1280px] mx-auto text-center mt-[20px]">
         <CmsNavbar />
         <Outlet />
-      </Suspense>
-    </>
+      </div>
+      <CmsFooter />
+    </Suspense>
   );
 };
 
